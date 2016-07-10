@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q4_線性回歸", "Q4_線性回歸\Q4_線性回歸.csproj", "{C6F5EB77-2713-4E3D-8780-C9761BAAAEB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F5EB77-2713-4E3D-8780-C9761BAAAEB0}.Debug|x86.ActiveCfg = Debug|x86
+		{C6F5EB77-2713-4E3D-8780-C9761BAAAEB0}.Debug|x86.Build.0 = Debug|x86
+		{C6F5EB77-2713-4E3D-8780-C9761BAAAEB0}.Release|x86.ActiveCfg = Release|x86
+		{C6F5EB77-2713-4E3D-8780-C9761BAAAEB0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

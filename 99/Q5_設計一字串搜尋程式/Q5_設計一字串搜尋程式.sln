@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q5_設計一字串搜尋程式", "Q5_設計一字串搜尋程式\Q5_設計一字串搜尋程式.csproj", "{DA39B290-1731-4B8C-B5E5-42E0AF5217C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA39B290-1731-4B8C-B5E5-42E0AF5217C3}.Debug|x86.ActiveCfg = Debug|x86
+		{DA39B290-1731-4B8C-B5E5-42E0AF5217C3}.Debug|x86.Build.0 = Debug|x86
+		{DA39B290-1731-4B8C-B5E5-42E0AF5217C3}.Release|x86.ActiveCfg = Release|x86
+		{DA39B290-1731-4B8C-B5E5-42E0AF5217C3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

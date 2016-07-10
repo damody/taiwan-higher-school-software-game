@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q1_同音代換加密法", "Q1_同音代換加密法\Q1_同音代換加密法.csproj", "{27012852-D1B7-445A-95AC-95FB44AF5281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27012852-D1B7-445A-95AC-95FB44AF5281}.Debug|x86.ActiveCfg = Debug|x86
+		{27012852-D1B7-445A-95AC-95FB44AF5281}.Debug|x86.Build.0 = Debug|x86
+		{27012852-D1B7-445A-95AC-95FB44AF5281}.Release|x86.ActiveCfg = Release|x86
+		{27012852-D1B7-445A-95AC-95FB44AF5281}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
