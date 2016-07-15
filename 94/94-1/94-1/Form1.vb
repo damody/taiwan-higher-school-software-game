@@ -1,0 +1,61 @@
+﻿Public Class Form1
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim A(9) As String : A(1) = "09" : A(2) = "12" : A(3) = "33" : A(4) = "47" : A(5) = "53" : A(6) = "67" : A(7) = "78" : A(0) = "92"
+        Dim B(9) As String : B(1) = "48" : B(0) = "81"
+        Dim C(9) As String : C(1) = "13" : C(2) = "41" : C(0) = "62"
+        Dim D(9) As String : D(1) = "01" : D(2) = "03" : D(3) = "45" : D(0) = "79"
+        Dim EE(13) As String : EE(1) = "14" : EE(2) = "16" : EE(3) = "24" : EE(4) = "44" : EE(5) = "46" : EE(6) = "55" : EE(7) = "57" : EE(8) = "64" : EE(9) = "74" : EE(10) = "82" : EE(11) = "87" : EE(0) = "98"
+        Dim F(9) As String : F(1) = "10" : F(0) = "31"
+        Dim G(9) As String : G(1) = "06" : G(0) = "25"
+        Dim H(9) As String : H(1) = "23" : H(2) = "39" : H(3) = "50" : H(4) = "56" : H(5) = "65" : H(0) = "68"
+        Dim I(9) As String : I(1) = "32" : I(2) = "70" : I(3) = "73" : I(4) = "83" : I(5) = "88" : I(0) = "93"
+
+        TextBox2.Text = ""
+
+        For Z = 1 To TextBox1.Text.Length
+            Randomize()
+            Select Case Strings.Mid(TextBox1.Text, Z, 1)
+                Case "A"
+                    TextBox2.Text &= A(Int(Rnd() * 8)) & " "
+                Case "B"
+                    TextBox2.Text &= B(Int(Rnd() * 2)) & " "
+                Case "C"
+                    TextBox2.Text &= C(Int(Rnd() * 3)) & " "
+                Case "D"
+                    TextBox2.Text &= D(Int(Rnd() * 4)) & " "
+                Case "E"
+                    TextBox2.Text &= EE(Int(Rnd() * 12)) & " "
+                Case "F"
+                    TextBox2.Text &= F(Int(Rnd() * 2)) & " "
+                Case "G"
+                    TextBox2.Text &= G(Int(Rnd() * 2)) & " "
+                Case "H"
+                    TextBox2.Text &= H(Int(Rnd() * 6)) & " "
+                Case "I"
+                    TextBox2.Text &= I(Int(Rnd() * 6)) & " "
+                Case "J"
+                    TextBox2.Text &= "15" & " "
+                Case "a"
+                    TextBox2.Text &= A(Int(Rnd() * 8)) & " "
+                Case "b"
+                    TextBox2.Text &= B(Int(Rnd() * 2)) & " "
+                Case "c"
+                    TextBox2.Text &= C(Int(Rnd() * 3)) & " "
+                Case "d"
+                    TextBox2.Text &= D(Int(Rnd() * 4)) & " "
+                Case "e"
+                    TextBox2.Text &= EE(Int(Rnd() * 12)) & " "
+                Case "f"
+                    TextBox2.Text &= F(Int(Rnd() * 2)) & " "
+                Case "g"
+                    TextBox2.Text &= G(Int(Rnd() * 2)) & " "
+                Case "h"
+                    TextBox2.Text &= H(Int(Rnd() * 6)) & " "
+                Case "i"
+                    TextBox2.Text &= I(Int(Rnd() * 6)) & " "
+                Case "j"
+                    TextBox2.Text &= "15" & " "
+            End Select
+        Next
+    End Sub
+End Class
